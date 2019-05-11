@@ -1,0 +1,3 @@
+g++  -c Clien.cpp
+g++  ServerMain.cpp  Server.o -o chatroom_server
+g++  ClienMain.cpp Clien.o -o chatroom_client
